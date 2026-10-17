@@ -1,0 +1,42 @@
+{
+    "type": "project",
+    "name": "hlw2326/hlwadmin",
+    "license": "MIT",
+    "homepage": "https://hlwadmin.top",
+    "description": "HlwAdmin plugin aggregation and distribution project",
+    "keywords": [
+        "HlwAdmin",
+        "ThinkLibrary",
+        "WeChatDeveloper"
+    ],
+    "authors": [
+        {
+            "name": "hlw2326",
+            "email": "1608626143@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "hlw2326/think-library": "*",
+        "hlw2326/think-plugs-admin": "*",
+        "hlw2326/think-plugs-worker": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "extend"
+        },
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "hlw2326/think-install": true
+        }
+    }
+}
