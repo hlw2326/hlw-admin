@@ -34,7 +34,7 @@
 /app/wechat
 
 ### 屏蔽配置文件
-/config/app.php
+/config/
 /config/cookie.php
 /config/lang.php
 /config/log.php
