@@ -187,6 +187,15 @@ php think route:list
 
 # 查看迁移状态（命令存在时）
 php think migrate:status
+
+
+### 开发辅助命令
+
+安装 `think-plugs-helper` 后，可根据数据表字段及备注生成模型属性注释，提升 IDE 提示效果：
+
+```shell
+php think xadmin:helper:model
+
 ```
 
 ## 安全建议
